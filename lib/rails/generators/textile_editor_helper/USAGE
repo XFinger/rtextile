@@ -1,0 +1,23 @@
+
+Description:
+    The textile_editor_helper generator is a gemified version of the plugin by the same name. Credit goes to
+    the original authors: Dave Olsen (Javascript) and Chris Scharf (Ruby/Rails) of West Virginia University 
+    Web Services (http://webservices.wvu.edu/) and to  ryanfelton (https://github.com/ryanfelton/textile-editor-helper)
+    for making the plugin rails 3 compatable.
+    
+    Another genereator, rtextile is packaged in this gem. It creates a migration and scaffold for your textile
+    editor. For more info on rtextile generator, run rails g rtextile --help.
+    
+    Notice: The textile_editor_helper requires prototype. If you prefer to use jquery, edit the initialization
+    line in the form partial to look like this: <%= textile_editor_initialize(:framework => :jQuery) %>
+
+Example:
+    rails generate textile_editor_helper
+
+    This will create:
+        Javascripts, css and files.  
+              
+More info on textile_editor_helper can be found here:http://slatecms.wvu.edu/open_source/textile_editor_helper
+or here: https://github.com/ryanfelton/textile-editor-helper.
+
+         

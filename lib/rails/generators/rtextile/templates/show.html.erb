@@ -1,0 +1,8 @@
+<%%= render :partial => 'show'%>
+<p>
+  <%%= link_to "Download "+@<%= name%>.<%= title %>+".textile " ,:action => :download, :id => @<%= name %>.id %> |  
+  <%%= link_to "Download "+@<%= name%>.<%= title %>+".html" ,:action => :download_html, :id => @<%= name %>.id %> 
+  <%%= link_to "Edit", edit_<%= name %>_path(@<%= name%>) %> |
+  <%%= link_to "Destroy", @<%= name %>, :confirm => 'Are you sure?', :method => :delete %> |
+  <%%= link_to "View All", <%= name.pluralize %>_path %>
+</p> 

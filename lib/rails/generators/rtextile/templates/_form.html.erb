@@ -1,0 +1,12 @@
+<%%= form_for @<%= name %> do |f| %>
+ 
+  <p>
+    <%%= f.label :<%= title %> %><br />
+    <%%= f.text_field :<%= title %> %>
+  </p>
+  <p> 
+    <%%= textile_editor <%= name.to_sym.inspect%>,<%= doc.to_sym.inspect%> %>
+  </p>
+  <%%= textile_editor_initialize %>
+  <p><%%= f.submit %></p>
+<%% end %>

@@ -1,0 +1,10 @@
+<%%= render :partial => 'form' %>
+<hr>
+<%%= render :partial => 'show'%>
+<hr>
+<p>
+  <%%= link_to "Show", @<%= name %> %> |
+  <%%= link_to "View All", <%= name.pluralize %>_path %> |
+  <%%= link_to "Download "+@<%= name%>.<%= title %>+".textile " ,:action => :download, :id => @<%= name %>.id %> |  
+  <%%= link_to "Download "+@<%= name%>.<%= title %>+".html" ,:action => :download_html, :id => @<%= name %>.id %> 
+</p>

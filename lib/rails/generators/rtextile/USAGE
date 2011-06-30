@@ -1,0 +1,18 @@
+Description:
+    Generates scaffold to create a rails 3 textile editor. Files created: migration,
+    controller, model, view templates and routes.
+    
+    I have gemified the plugin textile_editor_helper and included the necessary files 
+    (updated for rails 3) in another generator called textile_editor_helper.
+	For more info, run rails g textile_editor_helper --help 
+	 
+	
+Usage:
+	The generator takes three arguments, name(model), the objects title and the object itself.
+Example:
+	rails g rtextile document title post
+	This will generate a migration for model(document) with title(string) and post(text) and
+	all of the associated files. After running the generator, run your migration and
+	run the textile_editor_helper generator:
+	rails g textile_editor_helper
+ 

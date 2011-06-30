@@ -1,0 +1,8 @@
+ <%% for <%= name %> in @<%= plural_name %> %>
+ 	<ul>
+	   <li><b> <%%= link_to <%= name %>.<%= title %>, <%= name %> %> </b></li>
+	</ul>
+ <%% end %>
+ <hr>
+
+<p><%%= link_to "New Document", new_<%= name %>_path %></p>
