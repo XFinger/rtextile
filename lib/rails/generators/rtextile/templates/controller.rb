@@ -2,7 +2,6 @@
  class <%= plural_class_name%>Controller < ApplicationController
 
   def download 
-    file_content = []
     <%= name %> = <%= class_name %>.find(params[:id])
     @<%= doc %> = <%= name %>.<%= doc %>
     @<%= title %> = <%= name %>.<%= title %>.to_s
