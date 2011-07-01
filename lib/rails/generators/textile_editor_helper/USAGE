@@ -15,7 +15,7 @@ Example:
     rails generate textile_editor_helper
 
     This will create:
-        Javascripts, css and files.  
+        Javascripts, css and image files.  
               
 More info on textile_editor_helper can be found here:http://slatecms.wvu.edu/open_source/textile_editor_helper
 or here: https://github.com/ryanfelton/textile-editor-helper.
