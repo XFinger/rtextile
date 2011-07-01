@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Rtextile::VERSION
   s.authors     = ["Xfinger"]
   s.email       = ["xfinger@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/XFinger/rtextile"
   s.summary     = %q{Rails 3 Textile Editor}
   s.description = %q{ Rails Textile Editor, includes Textile_Editor_Helper plugin files that
     have been upgraded for rails 3 }

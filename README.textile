@@ -1,6 +1,6 @@
 h2. Rtextile
 
-bq. Homepage: 	github
+bq. Homepage: 	"Github":https://github.com/XFinger/rtextile
 Author: 	Thor Johnson
 Copyright: 	©2011 Central Cortex
 
