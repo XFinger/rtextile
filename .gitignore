@@ -3,3 +3,4 @@ Gemfile.lock
 .bundle 
 Gemfile
 *.gem
+.gitignore
